@@ -1,4 +1,4 @@
-<%--<%@page import="testjdbc.TestConneciton"%>--%>
+<%@page import="java.testjdbc.TestConneciton"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -18,8 +18,8 @@
         </h3>
         <%
 
-//        TestConneciton tc = new TestConneciton();
-//        tc.check();
+        TestConneciton tc = new TestConneciton();
+        tc.check();
                
 %>
     </body>
